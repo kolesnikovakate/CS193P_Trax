@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C01038201AC58B8F00F124B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C010381F1AC58B8F00F124B5 /* AppDelegate.swift */; };
-		C01038221AC58B8F00F124B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01038211AC58B8F00F124B5 /* ViewController.swift */; };
+		C01038221AC58B8F00F124B5 /* GPXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01038211AC58B8F00F124B5 /* GPXViewController.swift */; };
 		C01038251AC58B8F00F124B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01038231AC58B8F00F124B5 /* Main.storyboard */; };
 		C01038271AC58B8F00F124B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01038261AC58B8F00F124B5 /* Images.xcassets */; };
 		C010382A1AC58B8F00F124B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01038281AC58B8F00F124B5 /* LaunchScreen.xib */; };
 		C01038361AC58B8F00F124B5 /* TraxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01038351AC58B8F00F124B5 /* TraxTests.swift */; };
+		C063967F1ACC10B100A47A53 /* GPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C063967E1ACC10B100A47A53 /* GPX.swift */; };
+		C06396811ACC113900A47A53 /* MKGPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06396801ACC113900A47A53 /* MKGPX.swift */; };
+		C06396831ACC1E7600A47A53 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06396821ACC1E7600A47A53 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		C010381A1AC58B8F00F124B5 /* Trax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C010381E1AC58B8F00F124B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C010381F1AC58B8F00F124B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C01038211AC58B8F00F124B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C01038211AC58B8F00F124B5 /* GPXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXViewController.swift; sourceTree = "<group>"; };
 		C01038241AC58B8F00F124B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C01038261AC58B8F00F124B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C01038291AC58B8F00F124B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C010382F1AC58B8F00F124B5 /* TraxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01038341AC58B8F00F124B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C01038351AC58B8F00F124B5 /* TraxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraxTests.swift; sourceTree = "<group>"; };
+		C063967E1ACC10B100A47A53 /* GPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPX.swift; sourceTree = "<group>"; };
+		C06396801ACC113900A47A53 /* MKGPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKGPX.swift; sourceTree = "<group>"; };
+		C06396821ACC1E7600A47A53 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				C010381F1AC58B8F00F124B5 /* AppDelegate.swift */,
-				C01038211AC58B8F00F124B5 /* ViewController.swift */,
+				C01038211AC58B8F00F124B5 /* GPXViewController.swift */,
+				C06396801ACC113900A47A53 /* MKGPX.swift */,
 				C01038231AC58B8F00F124B5 /* Main.storyboard */,
 				C010381D1AC58B8F00F124B5 /* Supporting Files */,
 			);
@@ -88,6 +95,8 @@
 		C010381D1AC58B8F00F124B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C06396821ACC1E7600A47A53 /* ImageViewController.swift */,
+				C063967E1ACC10B100A47A53 /* GPX.swift */,
 				C01038281AC58B8F00F124B5 /* LaunchScreen.xib */,
 				C01038261AC58B8F00F124B5 /* Images.xcassets */,
 				C010381E1AC58B8F00F124B5 /* Info.plist */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C01038221AC58B8F00F124B5 /* ViewController.swift in Sources */,
+				C01038221AC58B8F00F124B5 /* GPXViewController.swift in Sources */,
+				C06396811ACC113900A47A53 /* MKGPX.swift in Sources */,
+				C06396831ACC1E7600A47A53 /* ImageViewController.swift in Sources */,
 				C01038201AC58B8F00F124B5 /* AppDelegate.swift in Sources */,
+				C063967F1ACC10B100A47A53 /* GPX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
